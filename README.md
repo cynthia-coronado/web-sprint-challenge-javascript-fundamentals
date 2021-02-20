@@ -38,7 +38,7 @@ Closure is when a functions reaches outside of its own scope to get and use thin
 
 4. Describe the four rules of the 'this' keyword.
 Window Binding - This means a global scope and no declared object. 'This' refers to the window object in the browser unless you are in srict mode, then you will get undefined. 
-Implicit Binding - This means when an object method is called 'this refers to what is left of the '.' Most common principle. Implicit binding only applies to objects with methods. 
+Implicit Binding - This means when an object method is called 'this' refers to what is left of the. Most common principle. Implicit binding only applies to objects with methods. 
 New Binding - 'New' keyword creates a new object from a constructor function and 'This' points to it. Explicit Binding - Uses the keywords 'Call' and 'Apply'. All refer to a specific object that is chosen. Call and Apply will immediately invoke the function. Bind will pass in arguments one by one. 
  
 5. Why do we need super() in an extended class?
