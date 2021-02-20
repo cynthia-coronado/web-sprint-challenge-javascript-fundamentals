@@ -63,7 +63,7 @@ function animalNames(array) {
   });
   return displayNames;
 }
-console.log(animalNames(zooAnimals));
+//console.log(animalNames(zooAnimals));
 
 /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
 The zoo needs a list of all their animal's names converted to lower case. 
@@ -76,7 +76,7 @@ function lowerCaseNames(array) {
   });
   return newList;
 }
-console.log(lowerCaseNames(zooAnimals));
+//console.log(lowerCaseNames(zooAnimals));
 
 
 /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
@@ -89,7 +89,7 @@ function lowPopulationAnimals(array) {
   });
   return newPopulation;
 }
-console.log(lowPopulationAnimals(zooAnimals));
+//console.log(lowPopulationAnimals(zooAnimals));
 
 /* 🦁🦁🦁 Request 4: .reduce() 🦁🦁🦁
 The zoo needs to know their total animal population across the United States. 
@@ -103,7 +103,7 @@ function USApop(array) {
   }, 0);
   return totalPopulation;
 }
-console.log(USApop(zooAnimals));
+//console.log(USApop(zooAnimals));
 
 // 🦁🦁🦁 Callbacks 🦁🦁🦁  
 /* 🦁🦁🦁 Step 1: Create a higher-order function 🦁🦁🦁
@@ -147,9 +147,9 @@ function greeting(firstName, lastName) {
  Use the constructor function named CuboidMaker to accept properties for length, width, and height which can be initialized as an object
 */
 function CuboidMaker(dimensions) {
-  // this.length = dimensions.length;
-  // this.width = dimensions.width;
-  // this.height = dimensions.height;
+  this.length = dimensions.length;
+  this.width = dimensions.width;
+  this.height = dimensions.height;
 }
 
 /* 🐴🐴🐴 Step 2: Volume Method 🐴🐴🐴
